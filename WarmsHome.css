@@ -1,0 +1,194 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Reggae One', cursive;
+}
+p,a,input,label,textarea,span,ul,li{
+    font-family: 'KoHo', sans-serif;/*在google font連接字體*/
+}
+/*   Nav   */
+header .nav-item{
+  margin-right: 10px;
+}
+/*   Main Page   */
+#landingPage{
+  background:	#E6E6F2;
+  padding: 10px 15px 10px 15px;
+}
+#landingPage .container{
+  height: 80vh;
+}
+#landingPage .col-md-10{
+  position: relative;
+  top:50%;
+  transform: translateY(-50%);
+}
+#landingPage h1{
+  margin-bottom: .5rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+#landingPage p{
+  font-size: 17px;
+}
+#landingPage .btnContainer{
+  display:flex;
+  flex-direction: column;
+}
+#landingPage .btn{
+  background: linear-gradient(135deg,#71b7e6,#9b59b6);
+  color: white;
+  border-radius: 30px;
+  border:none;
+  width:150px;
+  transition: 0.5s;
+}
+#landingPage .btn:hover{
+  background: linear-gradient(135deg, #FFD3A5, #FD6585);
+}
+/*   About us   */
+#aboutUs{
+  background: #F3F3FA;
+  padding: 40px 0;
+}
+#aboutUs h2{
+  margin-bottom: .5rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+#aboutUs .aboutUsBody{
+  display: flex;
+  flex-direction: column;
+}
+#aboutUs .bodySect .subTitle{
+  margin-right: 30px;
+}
+#aboutUs .bodySect .subTitle h6{
+  width:150px;
+}
+#aboutUs .bodySect{
+  display: flex;
+}
+#aboutUs .socialMedia a{
+  position: relative;
+  padding:2px;
+  border: 1px solid #8080C0;
+  border-radius: 50%;
+  margin:0 9px;
+  width: 40px;
+  height:40px;
+  transition: 0.5s;
+  box-shadow: 0 5px 4px #8080C0;
+}
+#aboutUs .socialMedia a:hover{
+  transform: translate(0, -8px);
+  background: 	#8080C0;
+}
+#aboutUs .socialMedia a .fa{
+  width: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: 	#8080C0;
+  transition: 0.5s;
+  position: relative;
+  top: -3px;
+}
+#aboutUs .socialMedia a .fa:hover{
+  color: white;
+}
+#aboutUs .socialMedia{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  height: 55px;
+  padding-top: 8px;
+}
+.link{
+  color: #CE0000;
+  transition: 0.5s;
+}
+.link:hover{
+  color:	#600000;
+}
+#cardSect{
+  display: flex;
+}
+#cardSect .card{
+  margin-right: 25px;
+
+}
+@media (max-width:770px) {
+  #aboutUs .bodySect{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width:700px) {
+  #cardSect{
+    display: flex;
+    flex-direction: column;
+  }
+  #cardSect .card:first-child{
+    margin-bottom: 20px;
+  }
+}
+/*   ourProduct  */
+#ourProduct .title h2{
+  margin-bottom: .5rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+#ourProduct{
+  background:	#E6E6F2;
+  padding: 40px 0;
+}
+#ourProduct #carouselExampleDark{
+  margin: 20px 0;
+}
+#ourProduct .discription ul li{
+  list-style-type:square;
+}
+#specialities h6{
+  margin:20px 0 20px 0;
+}
+#specialities img{
+  max-width: 70px;
+  max-height: 70px;
+}
+#specialities .commentBesideImages{
+  display:flex;
+  margin-top: 10px;
+}
+#specialities .commentBesideImages img{
+  margin-right: 30px;
+}
+/*   Order and sell  */
+#orderNow{
+  background:	#FAF4FF;
+  padding: 40px 0;
+}
+#orderNow .title h2{
+  margin-bottom: .5rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+#orderNow .title p{
+  margin-bottom: 20px;
+}
+#orderNow .orderNowBody .btn{
+  color:	#6F00D2;
+  background: #FAF4FF;
+  border: 1px solid	#6F00D2;
+  transition: 0.5s;
+}
+#orderNow .orderNowBody .btn:hover{
+  color: white;
+  background: #6F00D2;
+}
